@@ -9,6 +9,7 @@ public class AlibabademoApplication {
 
     public static void main(String[] args) {
         /*SpringApplication.run(AlibabademoApplication.class, args);*/
+//        提交到分支
 
         ConfigurableApplicationContext applicationContext = SpringApplication.run(AlibabademoApplication.class, args);
         String userName = applicationContext.getEnvironment().getProperty("user.name");
